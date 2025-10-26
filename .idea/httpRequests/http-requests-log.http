@@ -1,0 +1,307 @@
+POST http://localhost:4005/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2025-10-26T072923.200.json
+
+###
+
+POST http://localhost:4005/login
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password1d23"
+}
+
+###
+
+POST http://localhost:4005/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2025-10-26T072912.200.json
+
+###
+
+GET http://localhost:4004/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-25T055617.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 134
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "zaeqrfgzzzfrf@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T083159.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "zaeqrgzzzfrf@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T082123.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "zaeqrgzfrf@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T081839.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 130
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "zaeqrzfrf@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T080423.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 129
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "aeqrzfrf@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T080416.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 128
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "aeqrfrf@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T080352.500.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 127
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "aeqrrf@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T080346.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 128
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "aeqrrfr@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T080033.500.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 127
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "aeqrrf@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T080020.500.json
+
+###
+
+DELETE http://localhost:4000/patients/f4aa7412-cb2f-4322-853f-bc49a4543b69
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:4000/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-23T075731.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "aeqrrffrvttrx14waarer@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T075658.400.json
+
+###
+
+POST http://127.0.0.1:4000/patients
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "aeqrrffrvttrx14waarer@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T075620.500.json
+
+###
+
+POST http://127.0.0.1:4000/patients
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "aeqrrffrvttrx14waarer@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T075549.415.json
+
+###
+
+POST http://127.0.0.1:4000/patients
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "aeqrrffrvttrx14waarer@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
+
+<> 2025-10-23T075537.415.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccount

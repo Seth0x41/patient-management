@@ -1,0 +1,9 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Mahmoud Alarby ttt",
+  "email": "zaeqrfgzzzfrf@example.com",
+  "address": "Cairo, Egypt",
+  "dateOfBirth": "1998-06-15"
+}
