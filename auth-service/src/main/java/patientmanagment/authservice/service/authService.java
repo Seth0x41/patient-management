@@ -1,6 +1,7 @@
 package patientmanagment.authservice.service;
 
 
+import io.jsonwebtoken.JwtException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import patientmanagment.authservice.dto.LoginRequestDTO;
@@ -25,5 +26,15 @@ public class authService {
                 .findByEmail(loginRequestDTO.getEmail())
                 .filter(u->passwordEncoder.matches(loginRequestDTO.getPassword(),
                         u.getPassword())).map(u->jwtUtil.generateToken(u.getEmail(),u.getRole()));
+    }
+
+    public Boolean validateToken(String token){
+        try {
+            jwtUtil.validateToken(token);
+            return true;
+        }catch (JwtException e){
+
+            return false;
+        }
     }
 }
