@@ -1,6 +1,0 @@
-{
-  "timestamp": "2025-10-23T04:55:49.645+00:00",
-  "status": 415,
-  "error": "Unsupported Media Type",
-  "path": "/patients"
-}

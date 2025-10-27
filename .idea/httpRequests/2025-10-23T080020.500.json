@@ -1,6 +1,0 @@
-{
-  "timestamp": "2025-10-23T05:00:20.489+00:00",
-  "status": 500,
-  "error": "Internal Server Error",
-  "path": "/patients"
-}
