@@ -7,7 +7,7 @@ This project is a complete, microservices-based application for managing patient
 
 The application is composed of several independent services that communicate via REST APIs, gRPC, and asynchronous events. An API Gateway acts as the single entry point for all client requests, providing routing and centralized security.
 
-![project-architecture.png](/patient-management/project-architecture.png)
+![project-architecture.png](patient-management/project-architecture.png)
 
 ### Request Flow Explained
 1.  A client authenticates against the **Auth Service** via the **API Gateway** to get a JWT.
